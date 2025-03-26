@@ -1,0 +1,34 @@
+<meta charset="UTF-8">
+<h1>
+<script>
+    
+    var ano = 2025;
+    var idadeRobert = 24;
+    var idadeMaycon = 32;
+    var idadeFrancisco = 57;
+
+    function quebraLinha() {
+        document.write("<br>");
+        document.write("<br>");
+    }
+    
+    function mostra(frase) {
+
+        document.write(frase);
+        quebraLinha();
+
+    }
+
+    mostra("Robert tem " + (ano - 2000) + " anos");
+    mostra("Maycon tem " + (ano - 1992) + " anos");
+    mostra("Francisco tem " + (ano - 1968) + "anos");
+
+    
+
+    var media = (idadeRobert + idadeMaycon + idadeFrancisco)/3;
+    mostra("A média das idades é " + Math.round(media));
+
+    mostra("Estou progrmado em HTML?");
+    console.log("Esta e minha primeira progamação em html e javascript.")
+
+</script></h1>
